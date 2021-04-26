@@ -1,0 +1,24 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  
+  <view class="title-text" >上传带有人像的照片，智能裁剪可以防止人像被切
+割，从而获得更好的缩略图体验</view>
+
+  <image class='center-image' src="/images/detail/原图.png" />
+
+  <view class="select-images-row">
+    <image class='select-image-left' src="/images/detail/50x50.png" />
+
+    <image class='select-image-center' src="/images/detail/150x100.png" />
+
+    <image class='select-image-right' src="/images/detail/80x45.png" />
+  </view>
+
+
+  <view class="bottom-bar">
+    
+    <image class="upload-image" src="/images/index/cloud_upload.png" />
+    <view class="upload-text">上传</view>
+
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<!--index.wxml-->
+
+<view class="container">
+  
+    <text class="title-text">上传图片，会自动显示图片的主要特征标签</text>
+
+    <navigator url="/pages/detail/detail">
+      <image class='center-image' src="/images/index/原图.png" />
+    </navigator>
+  
+    <view class="bottom-bar">
+      
+      <image class="upload-image" src="/images/index/cloud_upload.png" />
+      <view class="upload-text">上传</view>
+
+    </view>
+</view>
